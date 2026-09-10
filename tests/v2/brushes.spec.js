@@ -19,6 +19,6 @@ for(const id of brushes){
  });
 }
 test('round pen clicks make circular dots, not square starts',async({page})=>{
- await dot(page,200,200);expect((await sample(page,200,200))[3]).toBe(255);
+ await page.locator('#size-slider').fill('50');await dot(page,200,200);expect((await sample(page,200,200))[3]).toBe(255);
  expect((await sample(page,223,200))[3]).toBe(255);expect((await sample(page,223,223))[3]).toBe(0);
 });
