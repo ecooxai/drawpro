@@ -1,19 +1,20 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8f8f7"><title>Drawing Pro</title><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/styles.css"><script type="module" src="/app.js"></script></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8f8f7"><title>Drawing Pro</title><link rel="icon" href="./favicon.svg"><link rel="stylesheet" href="./styles.css"><script type="module" src="./app.js"></script></head>
 <body>
 <header class="app-header">
- <span class="brand"><img src="/favicon.svg" width="17" height="17" alt=""><span>drawing<b>pro</b></span></span>
+ <span class="brand"><img src="./favicon.svg" width="17" height="17" alt=""><span>drawing<b>pro</b></span></span>
  <div class="file-actions" role="group" aria-label="Paintings"><button id="new-button" class="icon-button" title="New painting" aria-label="New painting"><span data-icon="new"></span></button><button id="gallery-button" class="icon-button" title="Saved paintings" aria-label="Saved paintings"><span data-icon="folder"></span></button></div>
  <input id="document-name" aria-label="Painting name" maxlength="80" spellcheck="false" autocomplete="off"><span id="save-status" class="save-status" role="status" aria-label="Opening storage" title="Opening storage"><i></i><span class="sr-only">Opening storage</span></span>
  <div class="header-actions"><button id="help-button" class="icon-button" title="Keyboard shortcuts (?)" aria-label="Keyboard shortcuts"><span data-icon="keyboard"></span></button><button id="export-button" class="icon-button" title="Export PNG" aria-label="Export PNG"><span data-icon="download"></span></button><span class="divider header-divider" aria-hidden="true"></span><div class="history-tools" role="group" aria-label="History"><button id="undo-button" class="icon-button" title="Undo (⌘/Ctrl Z)" aria-label="Undo" disabled><span data-icon="undo"></span></button><button id="redo-button" class="icon-button" title="Redo (⌘/Ctrl Shift Z)" aria-label="Redo" disabled><span data-icon="redo"></span></button><button id="clear-button" class="icon-button" title="Clear canvas" aria-label="Clear canvas"><span data-icon="trash"></span></button></div></div>
 </header>
 <div class="app-body">
  <aside class="sidebar" aria-label="Color palette">
-  <button id="current-chip" class="current-chip" aria-label="Edit current color" title="Edit current color"></button><span id="color-value">#252629</span>
-  <div id="palette" class="palette" role="group" aria-label="16 essential colors"></div>
-  <button id="more-colors" class="icon-button more-colors" aria-label="More colors" title="More colors"><span class="spectrum-icon"></span><span data-icon="plus"></span></button>
-  <div id="recent-colors" class="recent-colors" role="group" aria-label="Recent colors"></div>
-  <div class="sidebar-bottom"><div class="actual-size-well" title="Actual brush footprint at 100% zoom"><div id="size-preview" aria-hidden="true"></div></div><span id="preview-caption">10 px</span></div>
+  <div class="current-color-control">
+   <button id="current-chip" class="current-chip" aria-label="Open color picker" title="Open color picker"></button>
+   <input id="color-value" class="color-value-input" type="text" value="#252629" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Current color hex value" title="Type a HEX color">
+  </div>
+  <div id="palette" class="palette" role="group" aria-label="10 essential colors"></div>
+  <div id="recent-colors" class="recent-colors" role="group" aria-label="Recent custom colors"></div>
  </aside>
  <main class="studio">
   <section class="tool-bar" aria-label="Drawing tools and brush settings">
@@ -24,6 +25,7 @@
   </section>
   <div id="canvas-viewport" class="canvas-viewport" aria-label="Canvas workspace"><div id="paper-area" class="paper-area"><div id="paper-shell" class="paper-shell"><canvas id="drawing-canvas" width="500" height="500" tabindex="0" aria-label="Drawing canvas. Drag to paint or click to stamp. R red, G green, B blue."></canvas></div></div></div>
   <footer class="status-bar"><div class="status-info"><i id="status-color-dot"></i><span id="status-tool">Round brush</span><span class="status-separator">·</span><span class="canvas-size-control"><button id="dimensions" class="dimensions-button" type="button" aria-haspopup="true" aria-expanded="false" title="Change canvas size">500 × 500</button><div id="canvas-size-popover" class="canvas-size-popover" hidden><div class="canvas-size-title">Canvas size</div><div class="canvas-size-fields"><label>W<input id="canvas-width-input" type="number" min="1" max="4096" step="1" value="500" inputmode="numeric" aria-label="Canvas width in pixels"></label><span>×</span><label>H<input id="canvas-height-input" type="number" min="1" max="4096" step="1" value="500" inputmode="numeric" aria-label="Canvas height in pixels"></label></div><div class="canvas-size-presets"><button type="button" data-canvas-size="max">Max available</button><button type="button" data-canvas-size="128">128</button><button type="button" data-canvas-size="256">256</button><button type="button" data-canvas-size="512">512</button><button type="button" data-canvas-size="1000">1000</button><button type="button" data-canvas-size="1024">1024</button></div><button id="apply-canvas-size" class="canvas-size-apply" type="button">Apply</button></div></span><span id="coordinates"></span></div><div class="zoom-control" role="group" aria-label="Canvas zoom"><button id="zoom-out" class="icon-button" title="Zoom out" aria-label="Zoom out"><span data-icon="minus"></span></button><button id="actual-button" title="Reset to 100%" aria-label="Actual size 100%"><output id="zoom-value">100%</output></button><button id="zoom-in" class="icon-button" title="Zoom in" aria-label="Zoom in"><span data-icon="plus"></span></button><button id="fit-button" class="icon-button" title="Fit canvas to workspace" aria-label="Fit canvas"><span data-icon="fit"></span></button></div></footer>
+  <div class="brush-size-indicator" title="Actual brush footprint at 100% zoom" aria-label="Brush thickness indicator"><div class="actual-size-well"><div id="size-preview" aria-hidden="true"></div></div><span id="preview-caption">10 px</span></div>
  </main>
 </div>
 <div id="brush-cursor" aria-hidden="true" hidden></div><div id="toast" role="status" aria-live="polite"></div>

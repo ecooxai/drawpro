@@ -3,7 +3,7 @@ setup();
 test('typing and dialogs do not trigger color or brush shortcuts',async({page})=>{
  await page.locator('#document-name').fill('RGB 123');await page.keyboard.press('r');
  expect((await state(page)).color).toBe('#252629');expect((await state(page)).tool).toBe('pen');
- await page.locator('#document-name').press('Enter');await page.locator('#more-colors').click();await page.locator('#hex-input').fill('#123abc');await page.keyboard.press('Escape');
+ await page.locator('#document-name').press('Enter');await page.locator('#current-chip').click();await page.locator('#hex-input').fill('#123abc');await page.keyboard.press('Escape');
  expect((await state(page)).color).toBe('#252629');await page.locator('#help-button').click();await page.keyboard.press('g');expect((await state(page)).color).toBe('#252629');
 });
 test('mouse slider endpoints, bracket limits, pointer capture and cursor leave',async({page})=>{

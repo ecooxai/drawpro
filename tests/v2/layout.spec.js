@@ -5,7 +5,9 @@ test('compact icon-only controls and a genuinely blank 500px canvas',async({page
  expect((await page.locator('.app-header').boundingBox()).height).toBe(28);
  expect((await page.locator('.tool-bar').boundingBox()).height).toBe(30);
  expect(await page.locator('.tool-button,.app-header button').evaluateAll(a=>a.every(b=>b.textContent.trim()===''))).toBe(true);
- await expect(page.locator('.swatch')).toHaveCount(16);
+ await expect(page.locator('.swatch')).toHaveCount(10);
+ await expect(page.locator('#more-colors')).toHaveCount(0);
+ await expect(page.locator('#color-value')).toHaveAttribute('type','text');
  expect(await pixels(page)).toBe(0);expect(await page.locator('#paper-shell').innerText()).toBe('');
 });
 test('window resizing never changes 50px sliders, 10px default brush, or 100% canvas size',async({page})=>{
@@ -38,4 +40,11 @@ for(const size of [1,12,25,50])test('raster width matches '+size+'px',async({pag
  await page.locator('#size-slider').fill(String(size));await stroke(page,60,170.5,430,170.5);
  const measured=await page.evaluate(()=>{const c=document.querySelector('canvas'),d=window.drawingPro.getState().dpr,a=c.getContext('2d').getImageData(250*d,0,1,c.height).data;let n=0;for(let i=3;i<a.length;i+=4)if(a[i]>127)n++;return n/d;});
  expect(Math.abs(measured-size)).toBeLessThanOrEqual(1);
+});
+
+test('brush thickness indicator is anchored at the bottom right of the studio',async({page})=>{
+ const studio=await page.locator('.studio').boundingBox(),indicator=await page.locator('.brush-size-indicator').boundingBox();
+ expect(Math.abs((studio.x+studio.width)-(indicator.x+indicator.width))).toBeLessThanOrEqual(10);
+ expect((studio.y+studio.height)-(indicator.y+indicator.height)).toBeLessThanOrEqual(34);
+ await page.locator('#size-slider').fill('50');expect((await page.locator('#size-preview').boundingBox()).width).toBe(50);
 });
