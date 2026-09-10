@@ -1,0 +1,16 @@
+
+Running 2 tests using 2 workers
+
+(node:24884) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:24885) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [Chrome desktop] › tests/v2/tabs.spec.js:3:1 › two editing tabs preserve both versions instead of overwriting artwork (3.9s)
+  ✓  1 [Chrome Retina] › tests/v2/tabs.spec.js:3:1 › two editing tabs preserve both versions instead of overwriting artwork (4.6s)
+
+  2 passed (14.4s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report tests/artifacts/v2/report[39m
+[36m[39m

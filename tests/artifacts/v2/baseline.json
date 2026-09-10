@@ -1,0 +1,26 @@
+{
+  "overlapBefore": [
+    231,
+    76,
+    76,
+    255
+  ],
+  "overlapUnaffectedAfter": [
+    231,
+    76,
+    76,
+    255
+  ],
+  "overlapCrossing": [
+    75,
+    128,
+    212,
+    255
+  ],
+  "markerAt100Percent": [
+    76,
+    128,
+    212,
+    84
+  ]
+}

@@ -1,0 +1,9 @@
+node_modules/
+agent/
+tests/artifacts/results/
+tests/artifacts/report/
+.DS_Store
+
+# Generated browser profiles
+**/chrome-profile/
+output/computer/

@@ -1,0 +1,17 @@
+{
+  "chrome": "152.0.7977.76",
+  "screenshots": 6,
+  "errors": [],
+  "previewSize": {
+    "x": 663,
+    "y": 175.5,
+    "width": 50,
+    "height": 50
+  },
+  "cursorSize": {
+    "x": 1287,
+    "y": 599,
+    "width": 50,
+    "height": 50
+  }
+}

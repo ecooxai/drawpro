@@ -1,0 +1,3729 @@
+{
+  "config": {
+    "argv": [
+      "/Users/ecoo/.nvm/versions/node/v22.23.1/bin/node",
+      "/Users/ecoo/project/newlessagettest/drawing-pro/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/Users/ecoo/project/newlessagettest/drawing-pro/playwright.config.js",
+    "rootDir": "/Users/ecoo/project/newlessagettest/drawing-pro/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/ecoo/project/newlessagettest/drawing-pro/tests/artifacts/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "Chrome desktop",
+        "name": "Chrome desktop",
+        "testDir": "/Users/ecoo/project/newlessagettest/drawing-pro/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/ecoo/project/newlessagettest/drawing-pro/tests/artifacts/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "Chrome Retina",
+        "name": "Chrome Retina",
+        "testDir": "/Users/ecoo/project/newlessagettest/drawing-pro/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "tests/artifacts/test-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "tests/artifacts/report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 2,
+    "webServer": {
+      "command": "npm start",
+      "url": "http://127.0.0.1:4173",
+      "reuseExistingServer": true,
+      "timeout": 10000
+    }
+  },
+  "suites": [
+    {
+      "title": "drawing.spec.js",
+      "file": "drawing.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "blank start, all 16 colors, 10 tools, no runtime errors or layout overflow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3847,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:06.824Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-07617cb8c82de1d373aa",
+          "file": "drawing.spec.js",
+          "line": 18,
+          "column": 1
+        },
+        {
+          "title": "palette K: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1583,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:11.618Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-ebafdccdcd9ac374d1cd",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette A: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1022,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:13.221Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-a8be3296f32ba6355b3f",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette W: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 932,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:14.260Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-15df25e5a99dce5dd3ba",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette N: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 965,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:15.210Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-d17114e51956c4c3f902",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette R: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1021,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:16.189Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-6fe3ae5bfdb649d200eb",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette O: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1288,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:17.224Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-9ef59432480f5d6c98e0",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette Y: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1120,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:18.537Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-9a0407836f672e216ece",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette L: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 995,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:19.672Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-07c857703a17204e950f",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette G: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1029,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:20.682Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-278b70698e99b7db0088",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette T: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1177,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:21.726Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-96ebc2b154aec6758a02",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette C: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1404,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:22.917Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-0fce37e117293ab748c5",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette B: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1320,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:24.343Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-1aa08f28df937df6e9eb",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette I: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1342,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:25.677Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-a55b7f19e8dd0a0f9df6",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette P: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1543,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:27.036Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-59cd3db7861e38249c80",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette M: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1641,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:28.609Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-603d9120ff9aeaad1394",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette S: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1282,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:30.267Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-5d306a5f0e4aee44fb8f",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "1px thickness: actual-size preview, scaled cursor, measured raster width",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1596,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:31.571Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-3274ebd3815e4901fe94",
+          "file": "drawing.spec.js",
+          "line": 29,
+          "column": 32
+        },
+        {
+          "title": "12px thickness: actual-size preview, scaled cursor, measured raster width",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1181,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:33.188Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-e99b5bf06ceb2ffc3198",
+          "file": "drawing.spec.js",
+          "line": 29,
+          "column": 32
+        },
+        {
+          "title": "25px thickness: actual-size preview, scaled cursor, measured raster width",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1300,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:34.387Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-d53600f3f3b4cd73928b",
+          "file": "drawing.spec.js",
+          "line": 29,
+          "column": 32
+        },
+        {
+          "title": "50px thickness: actual-size preview, scaled cursor, measured raster width",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1496,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:35.715Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-849ed3f3edc50b0d37fa",
+          "file": "drawing.spec.js",
+          "line": 29,
+          "column": 32
+        },
+        {
+          "title": "real mouse drag sets size slider to both endpoints; bracket keys clamp",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1309,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:37.235Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-52760b2cd160cb123519",
+          "file": "drawing.spec.js",
+          "line": 35,
+          "column": 1
+        },
+        {
+          "title": "100% zoom: 50px cursor equals preview; fit and zoom do not change art",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2699,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:38.573Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-08c6fdf066394c5fb881",
+          "file": "drawing.spec.js",
+          "line": 39,
+          "column": 1
+        },
+        {
+          "title": "pen: number shortcut, mouse drawing, undo and redo exact pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1899,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:41.293Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-07620be94997f4969c4c",
+          "file": "drawing.spec.js",
+          "line": 42,
+          "column": 128
+        },
+        {
+          "title": "pencil: number shortcut, mouse drawing, undo and redo exact pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1518,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:43.218Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-efdcfef588a5560f555f",
+          "file": "drawing.spec.js",
+          "line": 42,
+          "column": 128
+        },
+        {
+          "title": "marker: number shortcut, mouse drawing, undo and redo exact pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1599,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:44.758Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-9b877ec1b10f56ecb9a0",
+          "file": "drawing.spec.js",
+          "line": 42,
+          "column": 128
+        },
+        {
+          "title": "brush: number shortcut, mouse drawing, undo and redo exact pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1557,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:46.380Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-a492456dca1b1dfd87d7",
+          "file": "drawing.spec.js",
+          "line": 42,
+          "column": 128
+        },
+        {
+          "title": "line: number shortcut, mouse drawing, undo and redo exact pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1495,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:47.964Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-581e907f89c53db8bb19",
+          "file": "drawing.spec.js",
+          "line": 42,
+          "column": 128
+        },
+        {
+          "title": "rectangle: number shortcut, mouse drawing, undo and redo exact pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1701,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:49.489Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-15b317d7b9961ebff58f",
+          "file": "drawing.spec.js",
+          "line": 42,
+          "column": 128
+        },
+        {
+          "title": "ellipse: number shortcut, mouse drawing, undo and redo exact pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1761,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:51.216Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-00688592a49bc5d26400",
+          "file": "drawing.spec.js",
+          "line": 42,
+          "column": 128
+        },
+        {
+          "title": "single click produces a dot and right mouse button does not draw",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 937,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:53.009Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-c1bfa6620f354c5de63e",
+          "file": "drawing.spec.js",
+          "line": 46,
+          "column": 1
+        },
+        {
+          "title": "marker opacity is uniform along one stroke, not darker at every mouse sample",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1704,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:54.015Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-574e9f3ce9342c88f8c6",
+          "file": "drawing.spec.js",
+          "line": 49,
+          "column": 1
+        },
+        {
+          "title": "opacity slider changes actual alpha; eraser remains fully effective",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2295,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:55.753Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-c043b4b42dea0e2958ca",
+          "file": "drawing.spec.js",
+          "line": 52,
+          "column": 1
+        },
+        {
+          "title": "eraser removes pixels, undo restores them, redo erases again",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5732,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:58.083Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-f119b860474e41be6554",
+          "file": "drawing.spec.js",
+          "line": 55,
+          "column": 1
+        },
+        {
+          "title": "fill bucket fills a bounded region without escaping",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4436,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:03.858Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-6130881e9fa6c7c50e3b",
+          "file": "drawing.spec.js",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "fill blank canvas then refill same color is safe",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2204,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:08.386Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-2d8d1665f68cbfa85138",
+          "file": "drawing.spec.js",
+          "line": 61,
+          "column": 1
+        },
+        {
+          "title": "eyedropper samples artwork and white background",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4303,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:10.641Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-ab4b2aa5a1bc9e75eced",
+          "file": "drawing.spec.js",
+          "line": 64,
+          "column": 1
+        },
+        {
+          "title": "new stroke after undo invalidates redo without losing earlier mark",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6892,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:14.985Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-21ae1ec67414d75175b4",
+          "file": "drawing.spec.js",
+          "line": 67,
+          "column": 1
+        },
+        {
+          "title": "clear is confirmable, cancellable, undoable and redoable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3561,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:21.932Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-5f3623a268cef364542e",
+          "file": "drawing.spec.js",
+          "line": 70,
+          "column": 1
+        },
+        {
+          "title": "color picker accepts HEX and RGB, rejects invalid inputs, remembers custom colors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2360,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:25.527Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-8841328addbcd9431f2d",
+          "file": "drawing.spec.js",
+          "line": 73,
+          "column": 1
+        },
+        {
+          "title": "hue and saturation/brightness support mouse and keyboard",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 6675,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#hex-input')\nExpected: \u001b[32m\"#\u001b[7m00FF00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"#\u001b[7m272C27\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" locator('#hex-input') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#hex-input')\u001b[22m\n\u001b[2m    14 × locator resolved to <input type=\"text\" maxlength=\"7\" id=\"hex-input\" value=\"#252629\" spellcheck=\"false\" autocomplete=\"off\" aria-label=\"Hex color\"/>\u001b[22m\n\u001b[2m       - unexpected value \"#272C27\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#hex-input')\nExpected: \u001b[32m\"#\u001b[7m00FF00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"#\u001b[7m272C27\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" locator('#hex-input') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#hex-input')\u001b[22m\n\u001b[2m    14 × locator resolved to <input type=\"text\" maxlength=\"7\" id=\"hex-input\" value=\"#252629\" spellcheck=\"false\" autocomplete=\"off\" aria-label=\"Hex color\"/>\u001b[22m\n\u001b[2m       - unexpected value \"#272C27\"\u001b[22m\n\n    at /Users/ecoo/project/newlessagettest/drawing-pro/tests/drawing.spec.js:79:334",
+                    "location": {
+                      "file": "/Users/ecoo/project/newlessagettest/drawing-pro/tests/drawing.spec.js",
+                      "column": 334,
+                      "line": 79
+                    },
+                    "snippet": "  77 | });\n  78 | test('hue and saturation/brightness support mouse and keyboard',async({page})=>{\n> 79 |  await page.locator('#more-colors').click();await page.locator('#hue-slider').fill('120');const r=await page.locator('#sv-picker').boundingBox();await page.mouse.click(r.x+r.width-1,r.y+1);await page.locator('#sv-picker').press('ArrowRight');await page.locator('#sv-picker').press('ArrowUp');await expect(page.locator('#hex-input')).toHaveValue('#00FF00');await page.locator('#apply-color').click();expect((await getState(page)).color).toBe('#00ff00');\n     |                                                                                                                                                                                                                                                                                                                                              ^\n  80 | });\n  81 | test('cancel picker keeps original color; dialog contains keyboard focus',async({page})=>{\n  82 |  await page.locator('#more-colors').click();await page.locator('#hex-input').fill('#123456');for(let i=0;i<14;i++)await page.keyboard.press('Tab');expect(await page.evaluate(()=>!!document.activeElement.closest('#color-dialog'))).toBe(true);await page.keyboard.press('Escape');await expect(page.locator('#color-dialog')).not.toBeVisible();expect((await getState(page)).color).toBe('#252629');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/ecoo/project/newlessagettest/drawing-pro/tests/drawing.spec.js",
+                        "column": 334,
+                        "line": 79
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#hex-input')\nExpected: \u001b[32m\"#\u001b[7m00FF00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"#\u001b[7m272C27\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" locator('#hex-input') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#hex-input')\u001b[22m\n\u001b[2m    14 × locator resolved to <input type=\"text\" maxlength=\"7\" id=\"hex-input\" value=\"#252629\" spellcheck=\"false\" autocomplete=\"off\" aria-label=\"Hex color\"/>\u001b[22m\n\u001b[2m       - unexpected value \"#272C27\"\u001b[22m\n\n\n  77 | });\n  78 | test('hue and saturation/brightness support mouse and keyboard',async({page})=>{\n> 79 |  await page.locator('#more-colors').click();await page.locator('#hue-slider').fill('120');const r=await page.locator('#sv-picker').boundingBox();await page.mouse.click(r.x+r.width-1,r.y+1);await page.locator('#sv-picker').press('ArrowRight');await page.locator('#sv-picker').press('ArrowUp');await expect(page.locator('#hex-input')).toHaveValue('#00FF00');await page.locator('#apply-color').click();expect((await getState(page)).color).toBe('#00ff00');\n     |                                                                                                                                                                                                                                                                                                                                              ^\n  80 | });\n  81 | test('cancel picker keeps original color; dialog contains keyboard focus',async({page})=>{\n  82 |  await page.locator('#more-colors').click();await page.locator('#hex-input').fill('#123456');for(let i=0;i<14;i++)await page.keyboard.press('Tab');expect(await page.evaluate(()=>!!document.activeElement.closest('#color-dialog'))).toBe(true);await page.keyboard.press('Escape');await expect(page.locator('#color-dialog')).not.toBeVisible();expect((await getState(page)).color).toBe('#252629');\n    at /Users/ecoo/project/newlessagettest/drawing-pro/tests/drawing.spec.js:79:334"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:27.917Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/ecoo/project/newlessagettest/drawing-pro/tests/artifacts/results/drawing-hue-and-saturation-20614--support-mouse-and-keyboard-Chrome-desktop/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/ecoo/project/newlessagettest/drawing-pro/tests/artifacts/results/drawing-hue-and-saturation-20614--support-mouse-and-keyboard-Chrome-desktop/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/ecoo/project/newlessagettest/drawing-pro/tests/artifacts/results/drawing-hue-and-saturation-20614--support-mouse-and-keyboard-Chrome-desktop/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/ecoo/project/newlessagettest/drawing-pro/tests/drawing.spec.js",
+                    "column": 334,
+                    "line": 79
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-d5e763eaad34c8459b62",
+          "file": "drawing.spec.js",
+          "line": 78,
+          "column": 1
+        },
+        {
+          "title": "cancel picker keeps original color; dialog contains keyboard focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4757,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:36.230Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-47fcc7f11f867b26c2c1",
+          "file": "drawing.spec.js",
+          "line": 81,
+          "column": 1
+        },
+        {
+          "title": "typing in document name, HEX, RGB and dialogs never changes tools or palette",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4269,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:42.223Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-9284ac2fdfc7699ed8e9",
+          "file": "drawing.spec.js",
+          "line": 84,
+          "column": 1
+        },
+        {
+          "title": "cursor hides outside canvas and in dialogs, then returns with new color",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2499,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:46.524Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-02374f765c31ad1e4ea5",
+          "file": "drawing.spec.js",
+          "line": 87,
+          "column": 1
+        },
+        {
+          "title": "Escape cancels an in-progress stroke without adding history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2342,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:49.064Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-690df21296ae2af45f67",
+          "file": "drawing.spec.js",
+          "line": 90,
+          "column": 1
+        },
+        {
+          "title": "pointer capture permits leaving canvas and releasing without a stuck pen",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3985,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:51.465Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-4ad3ab765d6ade74f51b",
+          "file": "drawing.spec.js",
+          "line": 93,
+          "column": 1
+        },
+        {
+          "title": "Shift constrains line angle and makes equal-sided shapes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4097,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:55.545Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-8cc249bc2b74b0ac1c9c",
+          "file": "drawing.spec.js",
+          "line": 96,
+          "column": 1
+        },
+        {
+          "title": "local autosave restores exact art, name, tool, color and size after reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5163,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:59.774Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-7e00d38ad671f382dd82",
+          "file": "drawing.spec.js",
+          "line": 100,
+          "column": 1
+        },
+        {
+          "title": "PNG export is a real 1200×800 image with white background, art and safe filename",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4685,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:39:04.963Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-c67a2a06cc1ae4e38734",
+          "file": "drawing.spec.js",
+          "line": 103,
+          "column": 1
+        },
+        {
+          "title": "inspiration is optional, cannot overwrite drawing, and undoes as one action",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5089,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:39:09.701Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-9ab2951e7dad38a84b9e",
+          "file": "drawing.spec.js",
+          "line": 106,
+          "column": 1
+        },
+        {
+          "title": "resizing to 390px keeps all palette colors usable, full picker in view, art intact",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5324,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:39:14.833Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-d786f1e6176371954b0f",
+          "file": "drawing.spec.js",
+          "line": 109,
+          "column": 1
+        },
+        {
+          "title": "touch gesture draws with no page scroll and no lingering cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome desktop",
+              "projectName": "Chrome desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3809,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:39:20.201Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-692ca22f6bc520a41d73",
+          "file": "drawing.spec.js",
+          "line": 112,
+          "column": 1
+        },
+        {
+          "title": "blank start, all 16 colors, 10 tools, no runtime errors or layout overflow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1694,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:06.813Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-664f68c7e6b43e324896",
+          "file": "drawing.spec.js",
+          "line": 18,
+          "column": 1
+        },
+        {
+          "title": "palette K: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1622,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:09.471Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-78787f6fbab909a50391",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette A: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1157,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:11.112Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-db338aadc1d6f59925a2",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette W: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 970,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:12.290Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-e46c457d5f4895a8a447",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette N: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1242,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:13.273Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-29a35a9b5572838d9c28",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette R: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1138,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:14.537Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-21bdcc9063f356e32a5c",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette O: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1050,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:15.688Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-9d9d514643c5ff726f84",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette Y: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1046,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:16.758Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-0d9aa566c32bd91d36fb",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette L: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1184,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:17.827Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-54e55fee7f9dad899c6c",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette G: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1224,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:19.033Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-80786fbf2f14febf2078",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette T: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1061,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:20.276Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-bafabb7ea9801891e049",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette C: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1097,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:21.356Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-fffe984781a4feeb0ba4",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette B: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1352,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:22.465Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-26dc5346226f176b68f1",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette I: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1372,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:23.830Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-8fa07b68e508e9153044",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette P: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1283,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:25.228Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-95ca0e371edd8943ad64",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette M: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1402,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:26.533Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-42769c9ce02d1855ece5",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "palette S: click, real stroke pixels, shortcut and live cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1665,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:27.959Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-e36a3c5f2d2071b954c1",
+          "file": "drawing.spec.js",
+          "line": 22,
+          "column": 33
+        },
+        {
+          "title": "1px thickness: actual-size preview, scaled cursor, measured raster width",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2207,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:29.656Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-3e40ddd20d40458adfc4",
+          "file": "drawing.spec.js",
+          "line": 29,
+          "column": 32
+        },
+        {
+          "title": "12px thickness: actual-size preview, scaled cursor, measured raster width",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1307,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:31.878Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-d92971619ed197a8be1d",
+          "file": "drawing.spec.js",
+          "line": 29,
+          "column": 32
+        },
+        {
+          "title": "25px thickness: actual-size preview, scaled cursor, measured raster width",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1382,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:33.204Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-fb5693daaf66e82e4e77",
+          "file": "drawing.spec.js",
+          "line": 29,
+          "column": 32
+        },
+        {
+          "title": "50px thickness: actual-size preview, scaled cursor, measured raster width",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1732,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:34.607Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-74fe80b39118d3eb4f4e",
+          "file": "drawing.spec.js",
+          "line": 29,
+          "column": 32
+        },
+        {
+          "title": "real mouse drag sets size slider to both endpoints; bracket keys clamp",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1710,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:36.355Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-5a35f9705fb249fd6fdc",
+          "file": "drawing.spec.js",
+          "line": 35,
+          "column": 1
+        },
+        {
+          "title": "100% zoom: 50px cursor equals preview; fit and zoom do not change art",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2249,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:38.095Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-6eabc65bed2703981b66",
+          "file": "drawing.spec.js",
+          "line": 39,
+          "column": 1
+        },
+        {
+          "title": "pen: number shortcut, mouse drawing, undo and redo exact pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2217,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:40.363Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-a530341c07b4fe97ebac",
+          "file": "drawing.spec.js",
+          "line": 42,
+          "column": 128
+        },
+        {
+          "title": "pencil: number shortcut, mouse drawing, undo and redo exact pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1675,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:42.618Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-c3d02e384d75f06907ff",
+          "file": "drawing.spec.js",
+          "line": 42,
+          "column": 128
+        },
+        {
+          "title": "marker: number shortcut, mouse drawing, undo and redo exact pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1941,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:44.307Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-ef39baa17a6d386e5f68",
+          "file": "drawing.spec.js",
+          "line": 42,
+          "column": 128
+        },
+        {
+          "title": "brush: number shortcut, mouse drawing, undo and redo exact pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1765,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:46.275Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-5516feb21df19d4aac7d",
+          "file": "drawing.spec.js",
+          "line": 42,
+          "column": 128
+        },
+        {
+          "title": "line: number shortcut, mouse drawing, undo and redo exact pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1926,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:48.072Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-63bdb3dd3d8844ffe8d9",
+          "file": "drawing.spec.js",
+          "line": 42,
+          "column": 128
+        },
+        {
+          "title": "rectangle: number shortcut, mouse drawing, undo and redo exact pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2107,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:50.027Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-e364d76a9357be628d58",
+          "file": "drawing.spec.js",
+          "line": 42,
+          "column": 128
+        },
+        {
+          "title": "ellipse: number shortcut, mouse drawing, undo and redo exact pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1875,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:52.162Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-93993deb511428b644a9",
+          "file": "drawing.spec.js",
+          "line": 42,
+          "column": 128
+        },
+        {
+          "title": "single click produces a dot and right mouse button does not draw",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1611,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:54.059Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-018310fa4e5daf78cbfa",
+          "file": "drawing.spec.js",
+          "line": 46,
+          "column": 1
+        },
+        {
+          "title": "marker opacity is uniform along one stroke, not darker at every mouse sample",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1808,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:55.711Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-8fb479117f0852b9a2d8",
+          "file": "drawing.spec.js",
+          "line": 49,
+          "column": 1
+        },
+        {
+          "title": "opacity slider changes actual alpha; eraser remains fully effective",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6330,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:37:57.555Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-79783e6f425a057dfd87",
+          "file": "drawing.spec.js",
+          "line": 52,
+          "column": 1
+        },
+        {
+          "title": "eraser removes pixels, undo restores them, redo erases again",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5593,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:03.928Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-f554a1bc4f6b1b226b0b",
+          "file": "drawing.spec.js",
+          "line": 55,
+          "column": 1
+        },
+        {
+          "title": "fill bucket fills a bounded region without escaping",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5210,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:09.588Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-d246febc2aa7dea787e2",
+          "file": "drawing.spec.js",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "fill blank canvas then refill same color is safe",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4965,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:14.847Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-96f348442cf6cc8d0352",
+          "file": "drawing.spec.js",
+          "line": 61,
+          "column": 1
+        },
+        {
+          "title": "eyedropper samples artwork and white background",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3968,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:19.856Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-1784f71bf974461d7e9f",
+          "file": "drawing.spec.js",
+          "line": 64,
+          "column": 1
+        },
+        {
+          "title": "new stroke after undo invalidates redo without losing earlier mark",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3039,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:23.883Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-c1679a04805518c3f1b4",
+          "file": "drawing.spec.js",
+          "line": 67,
+          "column": 1
+        },
+        {
+          "title": "clear is confirmable, cancellable, undoable and redoable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2498,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:26.946Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-eb456ab39710d9fa30a3",
+          "file": "drawing.spec.js",
+          "line": 70,
+          "column": 1
+        },
+        {
+          "title": "color picker accepts HEX and RGB, rejects invalid inputs, remembers custom colors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1682,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:29.463Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-ef0b5ac32ebe0d5d724f",
+          "file": "drawing.spec.js",
+          "line": 73,
+          "column": 1
+        },
+        {
+          "title": "hue and saturation/brightness support mouse and keyboard",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 10852,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#hex-input')\nExpected: \u001b[32m\"#\u001b[7m00FF00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"#\u001b[7m272C27\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" locator('#hex-input') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#hex-input')\u001b[22m\n\u001b[2m    14 × locator resolved to <input type=\"text\" maxlength=\"7\" id=\"hex-input\" value=\"#252629\" spellcheck=\"false\" autocomplete=\"off\" aria-label=\"Hex color\"/>\u001b[22m\n\u001b[2m       - unexpected value \"#272C27\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#hex-input')\nExpected: \u001b[32m\"#\u001b[7m00FF00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"#\u001b[7m272C27\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" locator('#hex-input') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#hex-input')\u001b[22m\n\u001b[2m    14 × locator resolved to <input type=\"text\" maxlength=\"7\" id=\"hex-input\" value=\"#252629\" spellcheck=\"false\" autocomplete=\"off\" aria-label=\"Hex color\"/>\u001b[22m\n\u001b[2m       - unexpected value \"#272C27\"\u001b[22m\n\n    at /Users/ecoo/project/newlessagettest/drawing-pro/tests/drawing.spec.js:79:334",
+                    "location": {
+                      "file": "/Users/ecoo/project/newlessagettest/drawing-pro/tests/drawing.spec.js",
+                      "column": 334,
+                      "line": 79
+                    },
+                    "snippet": "  77 | });\n  78 | test('hue and saturation/brightness support mouse and keyboard',async({page})=>{\n> 79 |  await page.locator('#more-colors').click();await page.locator('#hue-slider').fill('120');const r=await page.locator('#sv-picker').boundingBox();await page.mouse.click(r.x+r.width-1,r.y+1);await page.locator('#sv-picker').press('ArrowRight');await page.locator('#sv-picker').press('ArrowUp');await expect(page.locator('#hex-input')).toHaveValue('#00FF00');await page.locator('#apply-color').click();expect((await getState(page)).color).toBe('#00ff00');\n     |                                                                                                                                                                                                                                                                                                                                              ^\n  80 | });\n  81 | test('cancel picker keeps original color; dialog contains keyboard focus',async({page})=>{\n  82 |  await page.locator('#more-colors').click();await page.locator('#hex-input').fill('#123456');for(let i=0;i<14;i++)await page.keyboard.press('Tab');expect(await page.evaluate(()=>!!document.activeElement.closest('#color-dialog'))).toBe(true);await page.keyboard.press('Escape');await expect(page.locator('#color-dialog')).not.toBeVisible();expect((await getState(page)).color).toBe('#252629');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/ecoo/project/newlessagettest/drawing-pro/tests/drawing.spec.js",
+                        "column": 334,
+                        "line": 79
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#hex-input')\nExpected: \u001b[32m\"#\u001b[7m00FF00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"#\u001b[7m272C27\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" locator('#hex-input') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#hex-input')\u001b[22m\n\u001b[2m    14 × locator resolved to <input type=\"text\" maxlength=\"7\" id=\"hex-input\" value=\"#252629\" spellcheck=\"false\" autocomplete=\"off\" aria-label=\"Hex color\"/>\u001b[22m\n\u001b[2m       - unexpected value \"#272C27\"\u001b[22m\n\n\n  77 | });\n  78 | test('hue and saturation/brightness support mouse and keyboard',async({page})=>{\n> 79 |  await page.locator('#more-colors').click();await page.locator('#hue-slider').fill('120');const r=await page.locator('#sv-picker').boundingBox();await page.mouse.click(r.x+r.width-1,r.y+1);await page.locator('#sv-picker').press('ArrowRight');await page.locator('#sv-picker').press('ArrowUp');await expect(page.locator('#hex-input')).toHaveValue('#00FF00');await page.locator('#apply-color').click();expect((await getState(page)).color).toBe('#00ff00');\n     |                                                                                                                                                                                                                                                                                                                                              ^\n  80 | });\n  81 | test('cancel picker keeps original color; dialog contains keyboard focus',async({page})=>{\n  82 |  await page.locator('#more-colors').click();await page.locator('#hex-input').fill('#123456');for(let i=0;i<14;i++)await page.keyboard.press('Tab');expect(await page.evaluate(()=>!!document.activeElement.closest('#color-dialog'))).toBe(true);await page.keyboard.press('Escape');await expect(page.locator('#color-dialog')).not.toBeVisible();expect((await getState(page)).color).toBe('#252629');\n    at /Users/ecoo/project/newlessagettest/drawing-pro/tests/drawing.spec.js:79:334"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:31.170Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/ecoo/project/newlessagettest/drawing-pro/tests/artifacts/results/drawing-hue-and-saturation-20614--support-mouse-and-keyboard-Chrome-Retina/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/ecoo/project/newlessagettest/drawing-pro/tests/artifacts/results/drawing-hue-and-saturation-20614--support-mouse-and-keyboard-Chrome-Retina/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/ecoo/project/newlessagettest/drawing-pro/tests/artifacts/results/drawing-hue-and-saturation-20614--support-mouse-and-keyboard-Chrome-Retina/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/ecoo/project/newlessagettest/drawing-pro/tests/drawing.spec.js",
+                    "column": 334,
+                    "line": 79
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-8d7c43dcb5a3e587b41e",
+          "file": "drawing.spec.js",
+          "line": 78,
+          "column": 1
+        },
+        {
+          "title": "cancel picker keeps original color; dialog contains keyboard focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5788,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:45.542Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-1f455cc3e92634a6169b",
+          "file": "drawing.spec.js",
+          "line": 81,
+          "column": 1
+        },
+        {
+          "title": "typing in document name, HEX, RGB and dialogs never changes tools or palette",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3989,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:54.996Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-6aa51eb3b9679a0a99a6",
+          "file": "drawing.spec.js",
+          "line": 84,
+          "column": 1
+        },
+        {
+          "title": "cursor hides outside canvas and in dialogs, then returns with new color",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4509,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:38:59.029Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-4f6d5e55098e3f8305b4",
+          "file": "drawing.spec.js",
+          "line": 87,
+          "column": 1
+        },
+        {
+          "title": "Escape cancels an in-progress stroke without adding history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4166,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:39:03.561Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-9e4fc745f12e43a3e16b",
+          "file": "drawing.spec.js",
+          "line": 90,
+          "column": 1
+        },
+        {
+          "title": "pointer capture permits leaving canvas and releasing without a stuck pen",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5438,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:39:07.768Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-28508e1d505c3fd8a202",
+          "file": "drawing.spec.js",
+          "line": 93,
+          "column": 1
+        },
+        {
+          "title": "Shift constrains line angle and makes equal-sided shapes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4766,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:39:13.226Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-07c65165bcb50056d783",
+          "file": "drawing.spec.js",
+          "line": 96,
+          "column": 1
+        },
+        {
+          "title": "local autosave restores exact art, name, tool, color and size after reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5382,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:39:18.031Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-c092f86dadd6830c5038",
+          "file": "drawing.spec.js",
+          "line": 100,
+          "column": 1
+        },
+        {
+          "title": "PNG export is a real 1200×800 image with white background, art and safe filename",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6839,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:39:23.494Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-c8ca0ec91c1ff23e5d17",
+          "file": "drawing.spec.js",
+          "line": 103,
+          "column": 1
+        },
+        {
+          "title": "inspiration is optional, cannot overwrite drawing, and undoes as one action",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4999,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:39:30.382Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-e255cf75530236de0b0d",
+          "file": "drawing.spec.js",
+          "line": 106,
+          "column": 1
+        },
+        {
+          "title": "resizing to 390px keeps all palette colors usable, full picker in view, art intact",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 12789,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:39:35.430Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-8f2c198ee61b196d6ee1",
+          "file": "drawing.spec.js",
+          "line": 109,
+          "column": 1
+        },
+        {
+          "title": "touch gesture draws with no page scroll and no lingering cursor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome Retina",
+              "projectName": "Chrome Retina",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4428,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-08T15:39:48.236Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98f01e4aba006c943c7f-22412cdbf9f415c10e12",
+          "file": "drawing.spec.js",
+          "line": 112,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-08T15:37:06.495Z",
+    "duration": 167853.993,
+    "expected": 102,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}
