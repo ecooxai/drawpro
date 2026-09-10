@@ -4,7 +4,7 @@ test('compact icon-only controls and a genuinely blank 500px canvas',async({page
  const s=await state(page);expect([s.width,s.height,s.zoom,s.size,s.opacity]).toEqual([500,500,1,10,100]);
  expect((await page.locator('.app-header').boundingBox()).height).toBe(28);
  expect((await page.locator('.tool-bar').boundingBox()).height).toBe(30);
- expect(await page.locator('.tool-button,.app-header button').evaluateAll(a=>a.every(b=>b.textContent.trim()===''))).toBe(true);
+ expect(await page.locator('.tool-button,.app-header .file-actions>button,.app-header .header-actions>.icon-button,.app-header #export-button,.app-header .history-tools>button').evaluateAll(a=>a.every(b=>b.textContent.trim()===''))).toBe(true);
  await expect(page.locator('.swatch')).toHaveCount(10);
  await expect(page.locator('#more-colors')).toHaveCount(0);
  await expect(page.locator('#color-value')).toHaveAttribute('type','text');
